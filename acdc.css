@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0px;
+padding:0px;
+background-image:url(imagens/planodefundo.jpg);
+background-repeat:repeat
+}
+
+#principal{
+margin:0px auto;
+padding:0px;
+background-color:#fff;
+width:900px;
+height:auto;
+box-shadow: 7px 5px 10px;
+-moz-box-shadow: 7px 5px 10px;
+-webkit-box-shadow: 7px 5px 10px;
+border-radius:0px 0px 30px 30px;
+-moz-border-radius:0px 0px 30px 30px;
+-webkit-border-radius:0px 0px 30px 30px;
+}
+
+#superior{
+margin:0px;
+padding:0px;
+background-image:url(imagens/topo2.jpg);
+background-repeat:no-repeat;
+width:900px;
+height:300px
+}
+
+#menu{
+margin:0px;
+padding:10px 0px;
+width:900px;
+height:auto;
+text-align:center;
+background-color:#191717
+}
+
+	#menu a{
+	margin: 0px 50px;
+	color:#fff;
+	text-decoration:none; 
+	font-weight:bold;
+	font-size:16px; 
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+	
+	#menu a:hover{
+	text-decoration:overline
+	}
+	
+	
+#conteudo{
+margin:0px;
+padding:0px;
+width:900px;
+height:auto;
+background-color:#fff;
+}
+
+#menuvertical{
+float:left;
+margin:0px;
+padding:0px;
+width:220px;
+height:auto;
+
+}
+
+	#menuvertical ul{
+	width:200px;
+	height:auto;
+	margin:0px;
+	padding:0px}
+	
+	#menuvertical  li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border-top:solid 2px;
+	border-color:#fff;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	}
+	
+	#menuvertical li a{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px 0px 0px 10px;
+	text-decoration:none; 
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#fff;
+	display:block;
+	text-align:inherit; 
+	background-color:#191717;
+	
+	}
+	
+	#menuvertical li a:hover{
+	background-color:#BEBEBE;
+	color:#191717
+	}
+	
+	#menuvertical img{
+	width:195px;
+	height:190px;
+	padding:10px 0px 10px 5px;
+	}
+
+	#conteudoesquerda{
+	float:left;
+	width:400px;
+	height:auto;
+	margin:15px 0px 0px 30px;
+	padding:0px
+	
+	}
+		
+		#conteudoesquerda p{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		line-height:20px
+		}
+		
+		#conteudoesquerda h3{
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#c00
+		}
+		
+		
+		.pcaixa{
+		border:solid 3px #c00;
+		background-color:#191717;
+		color:#fff;
+		padding:10px;
+		box-shadow: 7px 5px 10px #333;
+		-moz-box-shadow: 7px 5px 10px #333;
+		-webkit-box-shadow: 7px 5px 10px #333;
+		border-radius:30px 0px 30px 0px;
+		-moz-border-radius:30px 0px 30px 0px;
+		-webkit-border-radius:30px 0px 30px 0px;
+		}
+		
+		.negrito{
+		font-weight:bold;
+		}
+		
+	#conteudodireita{
+	float:right;
+	margin:0px;
+	padding:0px;
+	}
+		
+		#conteudodireita img {
+		width:200px; 
+		height:150px;
+		margin:5px 10px;
+		padding:0px;
+		border:solid 2px #c00
+		}
+		
+		#conteudodireita h3{
+		font-family:Tahoma, Geneva, sans-serif;
+		text-align:center;
+		color:#c00
+		}
+		
+/*essa � da p�gina hist�ria e fotos*/
+
+
+#esquerda{
+width:630px;
+height:auto;
+margin:5px;
+padding:10px;
+float:right
+}
+		
+		#esquerda h3{
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#c00;
+		}
+		
+		#esquerda h4{
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#c00;
+		}
+	
+		#esquerda p{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:12px;
+		text-align:left;
+		line-height:20px
+		}
+	
+		#esquerda img{
+		width:200px;
+		height:200px;
+		}
+		
+/*esse é da página discografia*/
+#cesquerda{
+width:630px;
+height:auto;
+margin:5px;
+padding:10px;
+float:right
+ 
+}
+		#cesquerda h3{
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#c00;
+		}
+	
+			#linha{
+			width:630px;
+			height:auto;
+			margin:0px;
+			padding:0px;
+			float:right;
+			text-align:center;
+			color:#000;
+			font-weight:bold;
+			font-family:Arial Unicode MS;
+			font-size:12px;
+			font-style:italic
+			}
+			
+				#coluna1{
+				width:125px;
+				float:left;
+				margin:0px						
+				}
+				
+					#coluna1 img{
+					width:120px;
+					height:120px;
+					}
+				
+				#coluna2{
+				width:125px;
+				float:left;
+				margin:0px	
+				}
+					#coluna2 img{
+					width:120px;
+					height:120px;
+					}
+				
+				#coluna3{
+				width:125px;
+				float:left;
+				margin:0px		
+				}
+					#coluna3 img{
+					width:120px;
+					height:120px;
+					}
+					
+				#coluna4{
+				width:125px;
+				float:left;
+				margin:0px	
+				}
+					#coluna4 img{
+					width:120px;
+					height:120px;
+					}
+					
+				#coluna5{
+				width:125px;
+				float:left;
+				margin:0px	
+				}
+					#coluna5 img{
+					width:120px;
+					height:120px;
+					}
+				
+	
+	
+#rodape{
+width:900px;
+height:150px;
+margin:0px auto;
+padding:0px;
+border-radius:0px 0px 30px 30px;
+-moz-border-radius:0px 0px 30px 30px;
+-webkit-border-radius:0px 0px 30px 30px;
+box-shadow: 7px 5px 10px;
+-moz-box-shadow: 7px 5px 10px;
+-webkit-box-shadow: 7px 5px 10px;
+background-color:#191717;
+clear:both
+}
+
+	#copy{
+	width:900px;
+	height:50px;
+	margin:0px;
+	padding:50px 10px;
+	text-align:center;
+	color:#fff
+	}
+	
+
+
